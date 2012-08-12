@@ -1,0 +1,17 @@
+For more detailed instructions, see 
+http://www.hodique.info/projects/bibtex_plugin
+
+This is a plugin for rendering/using bibtex information in Dokuwiki pages.
+
+The plugin itself lives in the bibtex/ directory, while the files in
+lib/ take care of propertly displaying the pages for bibtex entries/
+(basically displaying a code block with the relevant bibtex code
+inside).
+
+Supported markups:
+- <BIBTEX [file=value_file] [style=value_style] [sort=value_sort]> : displays 
+  all the corresponding citations contained in the page bib:value_file, with 
+  formatting style value_style ordered by value_sort
+
+- {[file:reference]} : allows to cite a reference extracted from a file
+
